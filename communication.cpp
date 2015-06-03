@@ -62,9 +62,6 @@ void Communication::run()
         m_theData.setReceiveData(str);
 
         m_theController.move();
-        // setServo via Controller
-        // set value to sendData
-        // send sendData
         
         string strAnswer = "";
         strAnswer=m_theData.getSendData();
